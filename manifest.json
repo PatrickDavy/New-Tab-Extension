@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "New Tab Markdown",
+  "description": "Markdown editor from a new tab for note storing",
+  "version": "0.1.0",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "author": "https://www.linkedin.com/in/patrick-davy/"
+}
