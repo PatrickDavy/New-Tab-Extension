@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ee27123a-d7b9-4d60-bf70-6079b83ddc3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,8 @@
       <workItem from="1597977072088" duration="6910000" />
       <workItem from="1597984584984" duration="2481000" />
       <workItem from="1598060690531" duration="565000" />
-      <workItem from="1598061724884" duration="227000" />
+      <workItem from="1598061724884" duration="604000" />
+      <workItem from="1598667452262" duration="3455000" />
     </task>
     <servers />
   </component>
@@ -85,6 +88,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="338" y="23" width="604" height="707" key="find.popup" timestamp="1597979166383">
