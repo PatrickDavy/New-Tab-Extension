@@ -41,7 +41,6 @@ body{
     background-color: #202020;
     color: white;
     float: left;
-    width: 30%;
     padding: 10px;
     border: 0;
     resize: none;
@@ -53,8 +52,24 @@ body{
     overflow-y: auto;
     word-wrap: break-word;
     float: left;
-    width: 70%;
     padding: 10px;
     border: 0;
     resize: none;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.add-3070 {
+    grid-template-columns: 30% 70% !important;
+}
+
+.add-5050 {
+    grid-template-columns: 50% 50% !important;
+}
+
+.add-7030 {
+    grid-template-columns: 70% 30% !important;
 }

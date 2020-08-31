@@ -10,9 +10,13 @@
     <a class="active" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">
         Help
     </a>
+    <a onclick="addClass()" class="active">
+        Change Width
+    </a>
+
 </div>
-<div class="main-content">
-    <textarea class="text-editor" spellcheck="false" autocomplete="off" autofocus>
+<div class="main-content" id="main-content">
+    <textarea class="text-editor" spellcheck="false" autocomplete="off" autofocus id="text-editor">
 # This is a Markdown editor
 
 **A guide on Markdown can be found in this [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown Guide")**
@@ -21,7 +25,8 @@ Developed by: [Patrick Davy](https://www.linkedin.com/in/patrick-davy/ "LinkedIn
 
 Source code can be viewed in [this repo](https://github.com/PatrickDavy/New-Tab-Extension)
     </textarea>
-    <div class="preview">
+<!--    <div class="preview" + {button ? 'preview-add' : null} >-->
+    <div class="preview" id="preview">
 
     </div>
 </div>
