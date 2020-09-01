@@ -41,3 +41,5 @@ function addClass() {
         flag = 3070;
     }
 }
+
+document.getElementById("addClass").addEventListener("click",addClass,false);
