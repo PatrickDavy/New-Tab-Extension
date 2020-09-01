@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee27123a-d7b9-4d60-bf70-6079b83ddc3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
     </list>
@@ -34,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,6 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,7 +73,9 @@
       <workItem from="1598061724884" duration="604000" />
       <workItem from="1598667452262" duration="4077000" />
       <workItem from="1598672639458" duration="417000" />
-      <workItem from="1598911710074" duration="7946000" />
+      <workItem from="1598911710074" duration="8491000" />
+      <workItem from="1598926969783" duration="4558000" />
+      <workItem from="1598935157266" duration="920000" />
     </task>
     <servers />
   </component>
@@ -93,6 +95,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="438" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598928953326">
+      <screen x="0" y="23" width="1280" height="707" />
+    </state>
+    <state x="438" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.707/-320.-1057.1920.1057@0.23.1280.707" timestamp="1598928953326" />
     <state x="338" y="23" width="604" height="707" key="find.popup" timestamp="1597979166383">
       <screen x="0" y="23" width="1280" height="707" />
     </state>

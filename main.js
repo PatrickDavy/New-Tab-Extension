@@ -1,3 +1,5 @@
+'use strict';
+
 const textEditor = document.querySelector(".text-editor");
 
 const preview = document.querySelector(".preview");
@@ -8,16 +10,35 @@ const renderPreview = value => {
     preview.innerHTML = converter.makeHtml(value);
 };
 
+// let storedMarkdown = chrome.storage.local.get('markdown', function (data){
+//     textEditor.value = storedMarkdown;
+//     renderPreview(storedMarkdown);
+// })
+
+// textEditor.addEventListener("keyup", evt => {
+//     const { value } = evt.target;
+//     chrome.storage.local.set({'markdown': value}, function (){console.log("done")});
+//     renderPreview(value);
+// });
+
 textEditor.addEventListener("keyup", evt => {
     const { value } = evt.target;
-    window.localStorage.setItem('markdown', value);
+    chrome.storage.sync.set({key: value}, function () {
+        // console.log(value);
+    })
     renderPreview(value);
 });
 
-const storedMarkdown = window.localStorage.getItem('markdown');
+// const storedMarkdown = window.localStorage.getItem('markdown');
+const storedMarkdown = chrome.storage.sync.get('key', function (data) {
+    console.log(data);
+});
 if (storedMarkdown) {
     textEditor.value = storedMarkdown;
     renderPreview(storedMarkdown);
+    // chrome.storage.local.get(['key'], function (result) {
+    //     console.log(2 + result.key)
+    // });
 }
 
 window.addEventListener("load", renderPreview(storedMarkdown))

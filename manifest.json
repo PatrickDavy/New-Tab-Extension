@@ -7,5 +7,6 @@
   "chrome_url_overrides" : {
     "newtab": "index.html"
   },
-  "author": "Patrick Davy"
+  "author": "Patrick Davy",
+  "permissions": ["storage"]
 }
