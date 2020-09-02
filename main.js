@@ -4,7 +4,7 @@ const textEditor = document.querySelector(".text-editor");
 
 const preview = document.querySelector(".preview");
 
-const converter = new showdown.Converter();
+const converter = new showdown.Converter({tables: true});
 
 const renderPreview = value => {
     preview.innerHTML = converter.makeHtml(value);
@@ -34,7 +34,11 @@ let flag = 3070;
 function addClass() {
     console.log(flag)
     let preview = document.getElementById('main-content');
-    if (flag === 3070) {
+    if (flag === 1000) {
+        preview.classList.remove('add-1000')
+        preview.classList.add('add-3070');
+        flag = 3070;
+    } else if (flag === 3070) {
         preview.classList.remove('add-3070')
         preview.classList.add('add-5050');
         flag = 5050;
@@ -44,8 +48,12 @@ function addClass() {
         flag = 7030;
     } else if (flag === 7030) {
         preview.classList.remove('add-7030')
-        preview.classList.add('add-3070');
-        flag = 3070;
+        preview.classList.add('add-0100');
+        flag = 100;
+    } else if (flag === 100) {
+        preview.classList.remove('add-0100')
+        preview.classList.add('add-1000');
+        flag = 1000;
     }
 }
 
